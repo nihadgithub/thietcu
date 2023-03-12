@@ -10,6 +10,8 @@
 :root{
 	--accent_color_1 :#fdd201;
 
+	--body_text_color:#6a6a6a;
+
 	--super_transparent_black:rgba(0,0,0,0.15);
 	--transparent_black:rgba(0,0,0,0.3);
 }
@@ -162,17 +164,10 @@ body._lock {
 
 .page__section_2 {
 	
-	/* background-image:radial-gradient(at 20% 9%, rgb(254, 242, 235) 0px, transparent 50%),
-	radial-gradient(at 3% 44%, rgb(244, 226, 255) 0px, transparent 50%),
-	radial-gradient(at 79% 29%, rgb(207, 234, 255) 0px, transparent 50%),
-	radial-gradient(at 27% 60%, rgb(254, 220, 217) 0px, transparent 50%),
-	radial-gradient(at 67% 64%, rgb(198, 255, 237) 0px, transparent 50%),
-	radial-gradient(at 66% 36%, rgb(255, 242, 223) 0px, transparent 50%),
-	radial-gradient(at 42% 16%, rgb(228, 228, 255) 0px, transparent 50%);
- */
+	
 }
 .page__section_3 {
-	background-color: #d9d9d9;
+	background-color: #ffffff;
 }
 .page__title {
 	font-size: 40px;
@@ -196,6 +191,34 @@ body._lock {
 	font-size: 30px;
 	margin-bottom: 20px;
 }
+
+.page__sub__section{
+	margin: 15px 0 15px 0;
+}
+
+.page__sub__section h2{
+	font-size: 24px;
+	margin: 15px 0 15px 0;
+}
+.page__sub__section__card{
+	padding: 25px;
+	border: 1px solid var(--transparent_black);
+	border-radius: 10px;
+
+}
+.page__sub__section__card h2{
+	font-size: 18px;
+	font-weight: 600;
+	margin:0px 0 15px 0;
+}
+.page__sub__section__card p{
+	font-size: 16px;
+	line-height: 150%;
+	counter-reset: var(--body_text_color);
+}
+
+
+
 
 
 .landingpage__illustration img{
@@ -480,6 +503,6 @@ footer{
 	min-height: 100px;
 
 	background-color: #121212;
-	color:#656565;
+	color:#aaaaaa;
 	line-height: 30px;
 }
