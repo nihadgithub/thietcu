@@ -179,6 +179,7 @@ body._lock {
 	font-size: 28px;
 	margin:15px 0 15px 0;
 	line-height: 35px;
+
 }
 .page__text {
 	font-size: 16px;
@@ -190,15 +191,21 @@ body._lock {
 .page__sub-title {
 	font-size: 30px;
 	margin-bottom: 20px;
+	font-weight: 500;
 }
 
 .page__sub__section{
 	margin: 15px 0 15px 0;
 }
 
-.page__sub__section h2{
+.page__sub__section .page__sub__section__h2{
 	font-size: 24px;
+	padding-bottom: 15px;
 	margin: 15px 0 15px 0;
+	border-bottom: 1px solid var(--transparent_black);
+}
+.page__sub__section .page__sub__section__h2 img{
+	margin: 0 10px 0 0;
 }
 .page__sub__section__card{
 	padding: 15px 5px 15px 5px;
@@ -206,11 +213,13 @@ body._lock {
 	/* border-radius: 10px; */
 	border-left: none;
 	border-right: none;
+	border-top: none;
 
 }
-.page__sub__section__card h2{
+.page__sub__section__card .page__sub__section__card__h2{
 	font-size: 18px;
 	font-weight: 600;
+	line-height: 150%;
 	margin:0px 0 15px 0;
 }
 .page__sub__section__card p{
@@ -224,12 +233,12 @@ body._lock {
 
 
 .landingpage__illustration img{
-	max-height: 50vh;
+	max-height: 45vh;
 	width: 100%;
 
 }
 .landingpage__illustration svg{
-	max-height: 55vh;
+	max-height: 45vh;
 	width: 100%;
 
 }
