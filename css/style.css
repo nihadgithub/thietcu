@@ -204,7 +204,10 @@ body._lock {
 	margin: 15px 0 15px 0;
 	border-bottom: 1px solid var(--transparent_black);
 }
-.page__sub__section .page__sub__section__h2 img{
+
+
+
+.page__sub__section .page__sub__section__h2 .page__sub__section__img{
 	margin: 0 10px 0 0;
 }
 .page__sub__section__card{
