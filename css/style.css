@@ -119,10 +119,10 @@ body._lock {
 	min-height: 100%;
 }
 .page {
-	padding: 90px 0 30px 0;
+	padding: 60px 0 30px 0;
 }
 .page__section {
-	padding: 30px;
+	padding: 25px;
 	max-width: 1200px;
 	margin: 0 auto;
 }
@@ -201,9 +201,11 @@ body._lock {
 	margin: 15px 0 15px 0;
 }
 .page__sub__section__card{
-	padding: 25px;
+	padding: 15px 5px 15px 5px;
 	border: 1px solid var(--transparent_black);
-	border-radius: 10px;
+	/* border-radius: 10px; */
+	border-left: none;
+	border-right: none;
 
 }
 .page__sub__section__card h2{
