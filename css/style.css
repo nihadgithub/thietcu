@@ -203,6 +203,9 @@ body._lock {
 	padding-bottom: 15px;
 	margin: 15px 0 15px 0;
 	border-bottom: 1px solid var(--transparent_black);
+	
+	display: flex;
+	align-items: center;
 }
 
 
