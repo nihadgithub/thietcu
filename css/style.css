@@ -193,6 +193,8 @@ body._lock {
 	font-size: 30px;
 	margin-bottom: 20px;
 	font-weight: 500;
+	
+
 }
 
 .page__sub__section{
@@ -271,7 +273,10 @@ body._lock {
 	left: 0;
 	width: 100%;
 	z-index: 10;
-	background-color: #ffffff;
+	/* background-color: #ffffff; */
+
+	background-color: rgba(255, 255, 255, 0.7);
+	backdrop-filter: blur(15px);
 
 	
 
@@ -400,16 +405,17 @@ body._touch .menu__list > li._active .menu__arrow {
 	.menu__list li a{
 		display: block;
 		border-radius: 100px;
-		padding: 0px 0px;
+		padding: 10px 15px;
 		
-		margin-right: 20px;
+		margin-right: 0px;
 
 		font-size: 1em;
 		color: #656565;
 	}
 	.menu__list  li :hover{
-		color: rgb(0, 0, 0);
-		transition: 250ms ease-in-out;
+		color: rgb(255, 255, 255);
+		background-color: rgb(0, 0, 0);
+		transition: 300ms ease-in-out;
 	}
 
 	.menu__sub-list {
