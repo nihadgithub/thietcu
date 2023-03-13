@@ -143,8 +143,8 @@ body._lock {
 	display:inline-block;
 	
 
-	/* background-color: var(--accent_color_1); */
-
+	background-color: var(--super_transparent_black);
+	
 	padding: 10px;
 	border: 1px solid transparent;
 	border-radius: 10px;
@@ -199,8 +199,15 @@ body._lock {
 
 }
 
+
+
+
+
 .page__sub__section{
 	margin: 15px 0 15px 0;
+
+	border-bottom: 1px solid var(--super_transparent_black);
+	padding-bottom: 15px;
 }
 
 .page__sub__section__h2{
@@ -209,7 +216,7 @@ body._lock {
 	margin: 15px 0 15px 0;
 	border-bottom: 1px solid var(--transparent_black);
 	
-	display: flexbox;
+	display: flex;
 	align-items: center;
 	
 }
@@ -219,21 +226,48 @@ body._lock {
 .page__sub__section__h2 .page__sub__section__img{
 	margin: 0 10px 0 0;
 }
+
 .page__sub__section__card{
 	padding: 25px 5px 25px 5px;
-	border: 1px solid var(--super_transparent_black);
-	/* border-radius: 10px; */
-	border-left: none;
-	border-right: none;
-	border-top: none;
-
-	display: grid;
-	place-items: center;
-
+	
+	border-bottom: 1px solid var(--super_transparent_black);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .page__sub__section__card:hover{
 	border-bottom: 1px solid var(--body_text_color);
 }
+
+.page__sub__section__card__para{
+	border-bottom: 1px solid var(--super_transparent_black);
+	padding: 25px 5px 25px 5px;
+	
+}
+.page__sub__section__para__h2{
+	color: #000;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 150%;
+	margin:0px 0 15px 0;
+
+}
+.page__sub__section__card__parag{
+
+	font-size: 16px;
+	line-height: 150%;
+	color: var(--body_text_color);
+
+	
+}
+.page__sub__section__para__date{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 150%;
+	margin:0px 0 15px 0;
+	color: #6a6a6a;
+}
+
 
 .page__sub__section__card .page__sub__section__card__h2{
 	font-size: 18px;
@@ -244,12 +278,6 @@ body._lock {
 .page__sub__section__card p{
 	font-size: 16px;
 	line-height: 150%;
-	color: var(--body_text_color);
-}
-.page__sub__section__card__date{
-	font-size: 16px;
-	line-height: 150%;
-	margin: 10px 0 15px 0;
 	color: var(--body_text_color);
 }
 .page__sub__section__card__img{
@@ -548,11 +576,16 @@ body._touch .menu__list > li._active .menu__arrow {
 	.page__sub__section{
 		display: grid;
 		grid-template-columns: repeat(2,1fr);
+		gap: 15px;
 	}
 
 	.page__sub__section__card{
 		display: grid;
 		place-items: center;
+	}
+	.page__sub__section__card__para{
+		border-right: 1px solid  var(--super_transparent_black);
+		padding-right: 25px;
 	}
 
 }
