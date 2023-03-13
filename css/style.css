@@ -152,6 +152,7 @@ body._lock {
 .socials__landing__page a img{
 	height: 35px;
 	
+	
 	/* filter: invert(100%) sepia(34%) saturate(0%) hue-rotate(245deg) brightness(102%) contrast(102%);
  */
 
@@ -215,7 +216,7 @@ body._lock {
 }
 .page__sub__section__card{
 	padding: 15px 5px 15px 5px;
-	border: 1px solid var(--transparent_black);
+	border: 1px solid var(--super_transparent_black);
 	/* border-radius: 10px; */
 	border-left: none;
 	border-right: none;
@@ -231,10 +232,21 @@ body._lock {
 .page__sub__section__card p{
 	font-size: 16px;
 	line-height: 150%;
-	counter-reset: var(--body_text_color);
+	color: var(--body_text_color);
 }
-
-
+.page__sub__section__card__date{
+	font-size: 16px;
+	line-height: 150%;
+	margin: 10px 0 15px 0;
+	color: var(--body_text_color);
+}
+.page__sub__section__card__img{
+	height: 110px;
+	width: 110px;
+	background-color: #aaaaaa;
+	margin: 5px 0 15px 0;
+	border-radius:50px;
+}
 
 
 
@@ -516,7 +528,8 @@ footer{
 
 	display: grid;
 	place-items: center;
-
+	text-align: center;
+	
 	min-height: 100px;
 
 	background-color: #121212;
